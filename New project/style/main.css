@@ -1,0 +1,150 @@
+body {
+    font-family: Poppins;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #22343D;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #22343D;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #173A56;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #22343D;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #22343D;
+    margin-bottom: 45px;    
+}
+
+.heading-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #22343D;
+    margin-bottom: 10px;
+}
+
+.normal-text {
+font-size: 16px;
+color: #22343D;
+margin-bottom: 10px;
+
+}
+
+.bold-text {
+    font-size: 16px;
+    font-weight: 700px;
+    color: #22343D;
+    margin-bottom: 10px;
+}
+
+.normal-link {
+    font-size: 16px;
+    color: #22343D;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.bold-link {
+    font-size: 16px;
+    font-weight: 700px;
+    color: #22343D;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.white-button {
+    background-color: #FFFFFF;
+    color: #02897A;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+
+.custom-white-button {
+    background-color: #FFFFFF;
+    color: #173A56;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+
+.green-butto {
+    color: #FFFFFF;
+    background-color: #02897A;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+
+.custom-green-link {
+    background-color: #FFFFFF;
+    color: #02897A;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+.green-box {
+    padding: 50px;
+    background: #02897A;
+    border-radius: 32px;
+    max-width: 980px;
+}
+
+.green-box-text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.content {
+    justify-content: space-around;
+}

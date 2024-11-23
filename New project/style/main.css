@@ -1,5 +1,6 @@
 body {
     font-family: "Poppins", serif;
+    margin: 0;
 }
 
 .w100 {
@@ -41,6 +42,21 @@ h3 {
     font-size: 30px;
     font-weight: 700;
     color: #173A56;
+    margin: 0 0 0 15px;
+}
+
+.logo-display {
+    display: flex;
+    align-items: center;
+}
+
+. {
+
+}
+
+.header-logo {
+    width: 40px;
+    height: 36px;
 }
 
 .title {
@@ -89,6 +105,12 @@ color: #22343D;
     text-decoration: none;
 }
 
+.footer-normal-link {
+    font-size: 16px;
+    color: #22343D;
+    text-decoration: none;
+}
+
 .bold-link {
     font-size: 16px;
     font-weight: 700;
@@ -122,6 +144,11 @@ color: #22343D;
     margin-top: 5%;
 }
 
+.ptb20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .pr35 {
     padding-right: 35%;
 }
@@ -130,13 +157,26 @@ color: #22343D;
     margin-top: 10px;
 }
 
-.mlr {
+.mlr10 {
     margin-left: 20px;
     margin-right: 20px;
 }
 
+.mlr20 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .ml10 {
     margin-left: 10px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.m0 {
+    margin: 0;
 }
 
 .mb10 {
@@ -205,8 +245,8 @@ color: #22343D;
     padding: 8px 15px;
     font-size: 16px;
     font-weight: 700;
-    border: none;
     border-radius: 4px;
+    border: 1px solid #bcd0e5;
 }
 
 .green-button {
@@ -309,4 +349,89 @@ color: #737373;
     margin-left: 20px;
     margin-right: -10px;
     height: 17px;
+}
+.green-box-tabel {
+    padding: 50px;
+    border-radius: 8px;
+    max-width: 980px;
+    background-color: #02897A;*/
+}
+
+.price-box {
+    padding: 25px 50px;
+    box-shadow: 0px 2px 8px 0px #00000040;
+    border-radius: 4px;
+}
+
+.fixed-price {
+    display: flex;
+    align-items: center;
+}
+
+.price-text {
+    font-size: 76px;
+    font-weight: 500;
+    color: #02897A;
+    margin: 0 10px 0 0;
+}
+
+.dollar-price {
+    font-size: 24px;
+    font-weight: 500;
+    color: #02897A;
+    margin: 0;
+}
+
+.per-month-text {
+    font-size: 16px;
+    color:#AFAFAF;
+    margin: 0;
+}
+
+.green-bg {
+    background-color: #02897A;
+}
+
+.gray-text{
+    color: #E0E0E0;
+    ;
+}
+
+.white-text {
+ color: #FFFFFF;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .bold-link {
+    margin-bottom: 0;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.first-bg {
+    background: url(../img/background-top.png); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.second-bg {
+    background: url(../img/background-bottom.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+/* de retinut marginea de trecere de la laptop la tableta este de 768 */
+
+@media only screen and (max-width: 768px) {
+    
 }

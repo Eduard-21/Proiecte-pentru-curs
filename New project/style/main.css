@@ -50,10 +50,6 @@ h3 {
     align-items: center;
 }
 
-. {
-
-}
-
 .header-logo {
     width: 40px;
     height: 36px;
@@ -354,7 +350,7 @@ color: #737373;
     padding: 50px;
     border-radius: 8px;
     max-width: 980px;
-    background-color: #02897A;*/
+    background-color: #02897A;
 }
 
 .price-box {

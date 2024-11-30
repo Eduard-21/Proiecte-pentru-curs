@@ -12,13 +12,22 @@
 
 </head>
 <body>
+
+    <div class="flex-container show-none-desktop">
+         <div class="logo-display">
+             <img class="header-logo" src="./img/header.logo.png" alt="not found">
+            <p class="header-title">Product</p>
+         </div>
+         <div>
+             <img class="header-menu" src="./img/menu.png" alt="menu">
+         </div>
+    </div>
     <div class="first-bg">
         <div class="container-with">
-
          <!--  /* Rnadul 1 */ -->
-        <header class="flex-container ptb20">
+        <header class="flex-container show-none-mobile ptb20">
             <div class="logo-display">
-                <img src="./img/header.logo.png" alt="not found">
+                <img class="header-logo" src="./img/header.logo.png" alt="not found">
                 <p class="header-title">Product</p>
             </div>
             <nav class="navbar">
@@ -31,8 +40,9 @@
                 <img src="./img/header.icon.png" alt="not found">
             </nav>
         </header>
+        
         <!--  /* Rnadul 2 */ -->
-        <div class="flex-container">
+        <div class="flex-container row-column-revers center-mobile">
             <div class="w50">
                 <h1 class="title">Work at the speed of thought</h1>
                 <p class="subtitle">Tools, tutorials, design and innovation experts,
@@ -46,13 +56,13 @@
                 </div>
             </div>
             <div class="w50">
-                <img src="./img/img.rand 2.png" alt="not found"/>
+                <img class="w100" src="./img/img.rand 2.png" alt="not found"/>
             </div>
         </div>
         <!--  /* Rnadul 3 */ -->
         <div class="m50">
             <h2>Product  was Built Specifically for You</h2>
-            <div class="flex-container m50">
+            <div class="flex-container row-column m50">
                 <div class="w20">
                     <img width="50" height="50" src="./img/rand3.icon1.png" alt="not found"/>
                     <p class="second-row-text">First click tests</p>
@@ -83,7 +93,7 @@
     <div class="container-with">
 
         <!--  /* Rnadul 4 */ -->
-        <div class="flex-container m50">
+        <div class="flex-container row-column-revers m50">
             <div class="pad10 w50">
                 <p class="bold-text">Effortless Validation for</p>
                 <h3>Management</h3>
@@ -98,7 +108,7 @@
             </div>
         </div>       
         <!--  /* Rnadul 5 */ -->
-        <div class="flex-container m50">
+        <div class="flex-container row-column m50">
             <div class="pad10 w50">
                 <img class="w100" src="./img/rand5.img.png" alt="not found"/>
             </div>
@@ -122,7 +132,7 @@
             </div>
         </div>   
         <!--  /* Rnadul 6 */ -->
-        <div class="flex-container m50">
+        <div class="flex-container row-column-revers m50">
             <div class="pad10 w50">
                 <p class="bold-text">Optimisation for</p>
                 <h3>Collaborative</h3>
@@ -141,38 +151,41 @@
     </div>
     <div class="second-bg">
 
-         <!--  /* Rnadul 7 */ -->7
+         <!--  /* Rnadul 7 */ -->
         <div >
             <div class="text-center mb20">
             <h3>Quick & Easy Process</h3>
             <p class="normal-text mb0">Do you require some help for your project: Conception workshop,</p>
               <p class="normal-text m0"> prototyping, marketing strategy, landing page, Ux/UI?</p>
             </div>
-            <div class="flex-container space-evenly mb20">
-                <div class="flex-aling-centre">
-                    <img src="./img/rand7.icon1.png" alt="not found"/>
-                    <img src="./img/rand7.com1.png" alt="not found"/>
+
+
+            <div class="people-flex">
+                <div class="people-column mb20">
+                    <div class="flex-aling-centre add-space mb20">
+                        <img src="./img/rand7.icon1.png" alt="not found"/>
+                        <img src="./img/rand7.com1.png" alt="not found"/>
+                    </div>
+                    <div class="flex-aling-centre add-space mb20">
+                        <img src="./img/rand7.com3.png" alt="not found"/>
+                        <img src="./img/rand7.icon3.png" alt="not found"/>
+                    </div>
                 </div>
-                <div class="flex-aling-centre">
-                    <img src="./img/rand7.com2.png" alt="not found"/>
-                    <img src="./img/rand7.icon2.png" alt="not found"/>
+                <div class="people-column people-revers mb20">
+                    <div class="flex-aling-centre add-space mb20">
+                        <img src="./img/rand7.com2.png" alt="not found"/>
+                        <img src="./img/rand7.icon2.png" alt="not found"/>
+                    </div>
+                    <div class="flex-aling-centre add-space mb20">
+                        <img src="./img/rand7.icon4.png" alt="not found"/>
+                        <img src="./img/rand7.com4.png" alt="not found"/>
+                    </div>
                 </div>
             </div>
-            <div class="flex-container space-evenly mb20">
-                <div class="flex-aling-centre">
-                    <img src="./img/rand7.com3.png" alt="not found"/>
-                    <img src="./img/rand7.icon3.png" alt="not found"/>
-                </div>
-                <div class="flex-aling-centre">
-                    <img src="./img/rand7.icon4.png" alt="not found"/>
-                    <img src="./img/rand7.com4.png" alt="not found"/>
-                </div>
-            </div> 
         </div>
             <div class="text-center m50">
                 <button class="green-button">Contact our expert</button>
             </div>
-        
     </div>
     <div class="container-with">
 
@@ -181,7 +194,7 @@
             <h3>Contents Strategies</h3>
             <p class="normal-text mb20">We focus on ergonomics and meeting you where 
                 you work. It's only a keystroke away. </p>
-            <div class="flex-container">
+            <div class="flex-container row-column">
                 <div class="box-shadow">
                     <img class="w100 h185" src="./img/rand8.img1.png" alt="not found"/>
                     <div class="p10">
@@ -213,7 +226,7 @@
             <h3>Price Table</h3>
             <p class="normal-text">We offer competitive price</p>
         </div>
-        <div class="flex-container m50">
+        <div class="flex-container row-column m50">
             <div class="price-box">
                 <div class="text-center">
                     <p class="big-text">Free</p>
@@ -282,13 +295,13 @@
             <p class="normal-text">Problems trying to resolve the conflict between the two major 
                 realms of Classical physics: Newtonian mechanics </p>
         </div>
-        <div class="flex-container m50">
+        <div class="flex-container row-column m50">
             <div class="client-box-shadow p20">
-                <img src="./img/rand10.stele.png" alt="not found"/>
+                <img class="client-padding" src="./img/rand10.stele.png" alt="not found"/>
                 <p class="client-text">Product helps you see how many 
                     more days you need to work to 
                     reach your financial goal.</p>
-                <div class="flex-aling-centre">
+                <div class="flex-aling-centre client-padding">
                     <img class="wh50" src="./img/rand10.icon1.png" alt="not found"/>
                     <div class="p10">
                         <p class="client-green-text mb20">Wahid Ari</p>
@@ -298,11 +311,11 @@
             </div>
             <div class="client-box-shadow p20">
                 <div>
-                    <img src="./img/rand10.stele.png" alt="not found"/>
+                    <img class="client-padding" src="./img/rand10.stele.png" alt="not found"/>
                     <p class="client-text">Product helps you see how many
                         more days you need to work to 
                         reach your financial goal.</p>
-                    <div class="flex-aling-centre">
+                    <div class="flex-aling-centre client-padding">
                         <img class="wh50" src="./img/rand10.icon2.png" alt="not found"/>
                         <div class="p10">
                             <p class="client-green-text mb20">Wahid Ari</p>
@@ -313,11 +326,11 @@
             </div>
             <div class="client-box-shadow p20">
                 <div>
-                    <img src="./img/rand10.stele.png" alt="not found"/>
+                    <img class="client-padding" src="./img/rand10.stele.png" alt="not found"/>
                     <p class="client-text">Product helps you see how many
                         more days you need to work to
                         reach your financial goal.</p>
-                    <div class="flex-aling-centre">
+                    <div class="flex-aling-centre client-padding">
                         <img class="wh50" src="./img/rand10.icon3.png" alt="not found"/>
                         <div class="p10">
                             <p class="client-green-text mb20">Wahid Ari</p>
@@ -328,7 +341,7 @@
             </div>
         </div>
         <!--  /* Rnadul 11 */ -->
-        <div class="flex-container green-box aling-top m50">
+        <div class="flex-container row-column green-box aling-top m50 center-mobile">
             <div>
                 <p class="green-box-text pr35">Join 100 Compannies who boost their business with Product</p>
                 <button class="white-button">Get This</button>
@@ -338,7 +351,7 @@
             </div>
         </div>
         <!--  /* Rnadul 12 */ -->
-        <footer class="flex-container m50 aling-top">
+        <footer class="flex-container row-column m50 aling-top center-mobile">
             <div class="p10 w20">
                 <div class="mb20 mt10">
                     <img src="./img/rand12.logo.png" alt="not found"/>

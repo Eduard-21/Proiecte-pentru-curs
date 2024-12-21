@@ -208,6 +208,12 @@ h3 {
     align-items: center;
 }
 
+.flex-container-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .flex-aling {
     display: flex;
 }

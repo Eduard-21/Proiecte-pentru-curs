@@ -6,3 +6,8 @@ body {
 .flex-containe {
     display: flex;
 }
+
+.container-with {
+    max-width: 1120px;
+    margin: auto;
+}

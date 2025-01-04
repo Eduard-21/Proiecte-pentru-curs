@@ -96,7 +96,6 @@ h3 {
 .normal-link {
     font-size: 16px;
     color: #22343D;
-    margin-bottom: 10px;
     text-decoration: none;
 }
 
@@ -406,7 +405,7 @@ h3 {
     align-items: center;
 }
 
-.navbar .bold-link {
+.navbar {
     margin-bottom: 10px;
 }
 

@@ -10,170 +10,197 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
-<body class="container-with">
+<body>
+    <div class="container-with">
+
     <!-- Randul 1-->
-<header>
-    <div>
-        <img src="./img-customer/logo-header.png" alt="img">
-        <p>Product</p>
-        <nav>
-            <a href="#">Product</a>
-            <a href="#">Customers</a>
-            <a href="#">Pricing</a>
-            <a href="#">Resources</a>
-            <button>Sign In</button>
-            <button>Sign Up</button>
-            <img src="./img-customer/nav-bar.png" alt="">
-        </nav>
-    </div>
-</header>
+    <header class="flex-container ptb20">
+        <div class="flex-align">
+            <img class="header-logo" src="./img-customer/logo-header.png" alt="img"/>
+            <p class="header-title">Product</p>
+        </div>
+            <nav class="flex-align-center">
+                <a class="normal-link" href="#">Product</a>
+                <a class="bold-link mlr10" href="#">Customers</a>
+                <a class="normal-link" href="#">Pricing</a>
+                <a class="normal-link mlr10" href="#">Resources</a>
+                <button class="custom-white-button">Sign In</button>
+                <button class="green-button mlr20">Sign Up</button>
+                <img src="./img-customer/nav-bar.png" alt="not found"/>
+            </nav>
+    </header>
 
     <!-- Randul 2-->
-     <div>
-        <div>
-            <h1>Great Business made with Product.</h1>
-            <p>Build better customer relationships easily messaging
-                that provides a more personal experience for you and
-                your customers.</p>
-                <div>
-                    <input type= "email">
-                    <button>Join Now</button>
+     <div class="flex-align m70">
+        <div class="mr40"> 
+            <h1 class="title">Great Business<br/>
+                 made with Product.</h1>
+                 <div class="mb20">
+            <p class="normal-big-text">Build better customer relationships easily messaging</p>
+            <p class="normal-big-text">that provides a more personal experience for you and</p>    
+            <p class="normal-big-text">your customers.</p>  
+                 </div>  
+                <div class="mix-button-email mb10">
+                    <input class="text-email" name="email" type="email" placeholder="Enter your email adress" required="#">
+                    <button class="button-input" >Join Now</button>
                 </div>
-            <div>
-                <p>Join over 4,000+ other</p>
-                <img src="./img-customer/icon-pers-rand-2.png" alt="">
+            <div class="flex-align">
+                  <img src="./img-customer/icon-pers-rand-2.png" alt="">
+                <p class="normal-text">Join over <span class="green-text">4,000</span> + other</p>
             </div>    
         </div>
-        <img src="./img-customer/randul-2-img.png" alt=""/>
+        <img class="img-r2" src="./img-customer/randul-2-img.png" alt=""/>
      </div>
 
      <!--RAndul 3-->
-     <h2>Our Clients</h2>
-     <div>
+     <div class="mb100">
+        <h2 class="text-center p20">Our Clients</h2>
+     <div class="flex-container-evenly p20">
         <img src="./img-customer/randul-3-img-1.png" alt="">
         <img src="./img-customer/randul-3-img-2.png" alt="">
         <img src="./img-customer/randul-3-img-3.png" alt="">
         <img src="./img-customer/randul-3-img-4.png" alt="">
      </div>
+     </div>
 
      <!--Randul 4-->
-     <h3>Product is being used with great effects alongside:</h3>
-     <div>
-        <img width="424" src="./img-customer/randul-4-img.png" alt="">
-        <div>
+     <div class="mb100">
+        <h3 class="mb50">Product is being used with great effects alongside:</h3>
+     <div class="flex-align-center">
+        <img class="img-r4 ml30" src="./img-customer/randul-4-img.png" alt="">
+        <div class="ml30">
             <div>
-                <div>
-                    <img src="./img-customer/randul-4-icon-1.png" alt="">
-                    <p>Enterpreneur</p>
+                <div class="flex-align-center">
+                    <img class="mr20" src="./img-customer/randul-4-icon-1.png" alt="">
+                    <p class="second-heding-title">Enterpreneur</p>
                 </div>
-                <p>Product is a great way to help medium and samall enterprise owners 
-                    achieve their goals</p>
+                <p class="normal-text">Product is a great way to help medium and samall enterprise owners</p> 
+                <P>achieve their goals</P>
             </div>
             
             <div>
-                <div>
-                    <img src="./img-customer/randul-4-icon-2.png" alt="">
-                    <p>Accountants</p>
+                <div class="flex-align-center">
+                    <img class="mr20" src="./img-customer/randul-4-icon-2.png" alt="">
+                    <p class="second-heding-title">Accountants</p>
                 </div>
-                <p>Whether you are working on contract with clients, or on other key 
-                    accounting documents, Product is for you</p>
+                <p class="normal-text">Whether you are working on contract with clients, or on other key</p> 
+                <p>accounting documents, Product is for you</p>    
             </div>
             
             <div>
-                <div>
-                    <img src="./img-customer/randul-4-icon-3.png" alt="">
-                    <p>Universities</p>
+                <div class="flex-align-center">
+                    <img class="mr20" src="./img-customer/randul-4-icon-3.png" alt="">
+                    <p class="second-heding-title">Universities</p>
                 </div>
-                <p>Organize university projects and have documents easily graded 
-                    online with Product</p>
+                <p class="normal-text">Organize university projects and have documents easily graded</p> 
+                <p>online with Product</p>    
             </div>
             
         </div>
      </div>
+     </div>
+     
+
      <!-- Randul 5-->
-      <h3>How Product Work?</h3>
-      <div>
-        <div>
+      <div class="m50">
+        <h3 class="text-center m50">How Product Work?</h3>
+    <div>
+        <div class="flex-container-evenly mb100">
             <img src="./img-customer/randul-5-img-1.png" alt="">
-            <div>
-                <p>STEP 1</p>
-                <p>Apply for a product</p>
-                <p> Completing our easy step-by-step application form
-                    gives you access to multiple business with multiple 
-                    products. We analyse your business through our 
-                    proprietary credit analysis technology</p>
+            <div class="ml20">
+                <p class="bold-big-text">STEP 1</p>
+                <p class="second-heding-title">Apply for a product</p>
+                <p class="normal-text"> Completing our easy step-by-step application form</p>
+                <p>gives you access to multiple business with multiple</p>     
+                <p>products. We analyse your business through our</p>     
+                <p>proprietary credit analysis technology</p>
             </div>
         </div>
-        <div> 
+        <div class="flex-container-evenly mb100"> 
+            <div class="mr20">
+                <p class="bold-big-text">STEP 2</p>
+                <p class="second-heding-title">Pay fully refundable</p>
+                <p class="normal-text"> Product will contactting you instantly to receive</p>
+                <p>payment of the Application Fee. if no offer of product is </p>
+                <p>available, your fee will be fully refunded.</p>
+            </div>
             <img src="./img-customer/randul-5-img-2.png" alt="">
-            <div>
-                <p>STEP 2</p>
-                <p>Pay fully refundable</p>
-                <p> Product will contactting you instantly to receive
-                    payment of the Application Fee. if no offer of product is 
-                    available, your fee will be fully refunded.</p>
-            </div>
         </div>
-        <div>
+        <div class="flex-container-evenly mb100">
             <img src="./img-customer/randul-5-img-3.png" alt="">
-            <div>
-                <p>STEP 3</p>
-                <p>Completion</p>
-                <p> Product will continue to liase between borrower and 
-                    manager to procees and complete a quick and 
-                    efficient settlement</p>
+            <div class="ml20">
+                <p class="bold-big-text">STEP 3</p>
+                <p class="second-heding-title">Completion</p>
+                <p class="normal-text"> Product will continue to liase between borrower and</p> 
+                <p>manager to procees and complete a quick and </p>    
+                <p>efficient settlement</p>
             </div>
         </div>
+    </div>
+
       </div>
-      <!-- Randu 6-->
-      <h3>Join thousand of other who have
+    
+    <!-- Randu 6-->
+    <div class="m50 column-aling-box ">
+        
+        <h3 class="text-center ">Join thousand of other who have<br/>
         already received offers</h3>
-        <p>Send a message</p>
-      <input type="text" name="" id="">
-      <input type="text">
-      <input type="text">
-      <button>Send</button>
-      <!--Randu 7-->
-      <footer>
-        <div>
-            <div>
-                <img src="./img-customer/footer-logo.png" alt="">
+        <div class="shadow-box">
+        <p class="second-heding-title text-center">Send a message</p>
+        <form class="column-box">
+        <input class="input-box mb40" name="name" type="text" placeholder="Your name" required>
+        <input class="input-box mb40" name="email" type="email" placeholder="Your email" required>
+        <input class="message-box mb40" name="message" placeholder="Your message">
+        </form>
+        <button class="button-box ml80" type="submit">Send</button>
+        </div> 
+    </div>
+      
+    <!--Randu 7-->
+    <footer class="aling-top flex-container1 row-column m50  center-mobile">
+        <div class="p10 w20">
+            <div class="mb20 mt10">
+                <img src="./img/rand12-logo.png" alt="not found"/>
             </div>
-            <div>
-                <img src="./img-customer/footer-icon-instagram.png" alt="">
-                <img src="./img-customer/footer-icon-facebook.png" alt="">
-                <img src="./img-customer/footer-icon-twiter.png" alt="">
-            </div>
-        </div>
-        <div>
-            <p>Resource</p>
-            <div>
-                <a href="#">About Us</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-                <a href="#">FAQ</a>
+            <div class="social-media-icon">
+                <img src="./img/rand12.icon-insta.png" alt="not found"/>
+                <img class="mlr20" src="./img/rand12.icon-fbuc.png" alt="not found"/>
+                <img src="./img/rand12.icon-twit.png" alt="not found"/>
             </div>
         </div>
-        <div>
-            <p>Legal Stuff</p>
-            <div>
-                <a href="#">Disclaimer</a>
-                <a href="#">Financing</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
+        <div class="w20">
+            <p class="footer-link">Resource</p>
+            <div class="column-aling">
+                <a href="#" class="footer-normal-link">About Us</a>
+                <a href="#" class="footer-normal-link">Blog</a>
+                <a href="#" class="footer-normal-link">Contact</a>
+                <a href="#" class="footer-normal-link">FAQ</a>
             </div>
         </div>
-        <div>
-            <p>knowing you're always on the best energy deal.</p>
-            <input type="text">
-            <div>
-                <button>Sign up Now</button>
+        <div class="w20">
+            <p class="footer-link">Legal Stuff</p>
+            <div class="column-aling">
+                <a href="#" class="footer-normal-link">Disclaimer</a>
+                <a href="#" class="footer-normal-link">Financing</a>
+                <a href="#" class="footer-normal-link"> Privacy Policy</a>
+                <a href="#" class="footer-normal-link">Terms of Service</a>
             </div>
         </div>
-      </footer>
-      <!--Randu 8-->
-      <div>
-        <p>Made With Love By Figmaland All Right Reserved</p>
-      </div>
+            <div>
+                <p class="news-letter-text">knowing you're always on the best energy deal.</p>
+                <input class="news-letter-input"/>
+                    <div>
+                        <button class="green-button">Sign up Now</button>
+                    </div>
+        </div>
+    </footer>
+
+    <!--Randu 8-->
+    <div class="text-center mt30">
+        <p class="normal-text">Made With Love By Figmaland All Right Reserved</p>
+    </div>
+    
+    </div>
+    
 </body>
 </html>

@@ -6,7 +6,7 @@ function remainingMinutesInOven(actualMinutesInOven) {
    console.log(EXPECTED_MINUTES_IN_OVEN - actualMinutesInOven) 
 }
 
-remainingMinutesInOven(20)
+remainingMinutesInOven()
 
 function preparationTimeInMinutes(numberOfLayers) {
     console.log( 2 * numberOfLayers )
@@ -54,3 +54,7 @@ function infinitate() {
     }
 }
 
+function getRandomnumber(number) {
+    var randomNumber = Math.random ();
+    console.log(number)
+}

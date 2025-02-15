@@ -1,0 +1,88 @@
+body {
+    font-family: "Stratos Web";
+    background: #202632;
+}
+
+.viewport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #313A49;
+    height: 335px;
+    width: 540px;
+    justify-content: flex-start;
+    border-radius: 20px;
+}
+
+.button {
+    background: #53FFAB;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 265px;
+}
+
+.text-box {
+    width: 130px;
+    height: 20px;
+    margin: 40px 0 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #53FFAB;
+}
+
+.text-box-2 {
+    height: 114px;
+    width: 468px;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #D9D9D9;
+    max-height: 115px; 
+    text-overflow: ellipsis; /* adauga ... la sfarsitul textului */
+    overflow: hidden; /* textul care nu incape in container va fi ascuns */
+    white-space: normal; /* textul se va imparti pe mai multe linii */   
+}
+
+.text-box-3 {
+    padding: 10px;
+} 
+
+@media only screen and (max-width: 768px) {
+    .container {
+        height: 361px;
+        width: 396px;
+    }
+    .text-box-2 {
+        height: 150px;
+        width: 350px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .text-box {
+        font-size: 18px;
+    }
+    .button {
+        bottom: 208px;
+    }
+    .imgagine {
+        width: 100%;
+    }
+}

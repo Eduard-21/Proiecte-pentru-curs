@@ -45,14 +45,13 @@ body {
 }
 
 .text-box-2 {
-    height: 114px;
+    min-height: 114px;
     width: 468px;
     padding: 15px;
     font-weight: 400;
     font-size: 30px;
     text-align: center;
-    color: #D9D9D9;
-    max-height: 115px; 
+    color: #D9D9D9; 
     text-overflow: ellipsis; /* adauga ... la sfarsitul textului */
     overflow: hidden; /* textul care nu incape in container va fi ascuns */
     white-space: normal; /* textul se va imparti pe mai multe linii */   
